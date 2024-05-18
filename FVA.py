@@ -21,7 +21,7 @@ class FVA:
 
     def display_fva_results(self, fva_result):
         # Print the FVA results 
-        print("FVA Results")
+        print("\nFVA Results")
         print("\nModel: ", self.model.id)
         print("\nSolution Time: ", self.solution_time)
         print("\nReactions\tMin Flux\tMax Flux")
